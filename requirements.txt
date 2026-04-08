@@ -1,0 +1,30 @@
+# --- Cốt lõi LangChain & Ollama ---
+langchain>=1.1.0
+langchain-community>=0.4.1
+langchain-core>=1.1.0
+langchain-ollama>=1.0.0
+
+# --- Cơ sở dữ liệu Vector & Search ---
+chromadb>=1.3.5
+rank-bm25>=0.2.2
+
+# --- Web Server & API ---
+fastapi>=0.115.0
+uvicorn>=0.32.0
+
+# Ép pydantic về bản ổn định mà Gradio/Colab chấp nhận
+pydantic>=2.10.0
+python-multipart>=0.0.12
+
+# --- Xử lý dữ liệu & File ---
+pyyaml>=6.0.0
+pypdf>=5.1.0
+python-docx>=1.1.0
+unstructured>=0.16.0
+markdown>=3.4.0
+pandas>=2.2.0
+
+# --- Tiện ích & OpenAI ---
+python-dotenv>=1.0.0
+openai>=1.0.0
+mcp>=1.1.0

@@ -1,0 +1,32 @@
+python --version
+python.exe -m pip install --upgrade pip
+python -m venv venv
+.\venv\Scripts\Activate
+
+conda deactivate
+
+pip install -r requirements.txt
+
+pip install --upgrade openai langchain
+
+$env:OPENROUTER_API_KEY="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"
+
+python3 ~/monitoring-project/langchain_pipeline/src/analyzer.py
+
+pip install zstd
+
+
+# Giết tiến trình cũ
+pkill ollama
+
+# Thiết lập đường dẫn thư viện CUDA của NVIDIA trên Colab
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/nvidia/lib64
+export PATH=$PATH:/usr/local/nvidia/bin
+
+# Khởi động lại server ở chế độ nền
+ollama serve
+
+cat ollama.log | grep -i "CUDA"
+
+# pull model
+ollama pull nomic-embed-text
