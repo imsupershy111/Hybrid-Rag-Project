@@ -12,7 +12,7 @@ This project implements a hybrid RAG system that combines:
 - **Semantic Search**: Dense vector embeddings for understanding meaning and context
 - **Keyword Search**: BM25 sparse retrieval for exact keyword matching
 - **Hybrid Fusion**: Reciprocal Rank Fusion (RRF) to combine results from both methods
-- **MCP Server**: Both REST API and Model Context Protocol server for Claude integration
+- **MCP Server**: Model Context Protocol server for Claude integration
 - **Multi-format Support**: Automatically loads documents from various file formats
 
 The hybrid approach ensures better retrieval accuracy by leveraging the strengths of both search methods.
