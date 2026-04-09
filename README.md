@@ -45,7 +45,7 @@ Query → Hybrid Retriever → [Vector Retriever + BM25 Retriever]
 
 1. **Python 3.9+**
 2. **Ollama** Installed and running with the nomic-embed-text model
-3. OpenRouter API Key: To access high-performance LLMs without local hardware strain
+3. **OpenRouter API Key** to access high-performance LLMs without local hardware strain
 
 ## Installation
 
